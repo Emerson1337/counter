@@ -1,7 +1,6 @@
 body#home div.container {
   text-align: center;
   background: none;
-  
 }
 
 body {
@@ -10,7 +9,12 @@ body {
   background-size: unset;
   overflow: hidden;
   align-items: center;
-  background: radial-gradient(ellipse at center, rgba(255,179,206,0) 0%, rgba(255,180,199,0) 43%, rgba(248, 230, 71, 0.43) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 179, 206, 0) 0%,
+    rgba(255, 180, 199, 0) 43%,
+    rgba(248, 230, 71, 0.43) 100%
+  );
   background-attachment: fixed;
   background-repeat: no-repeat;
   display: flex;
@@ -21,11 +25,10 @@ body {
   justify-content: center;
   min-width: 184px;
   overflow-x: hidden;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
 }
 
-div#titulo { 
-  
+div#title {
   text-align: center;
   width: 40%;
   margin: 0 auto;
@@ -37,7 +40,7 @@ h1 {
   padding: 10px;
 }
 
-input { 
+input {
   text-align: center;
   width: 200px;
   height: 200px;
@@ -45,9 +48,8 @@ input {
   padding: 10px;
   outline: none;
   padding: 5px;
-  box-shadow: none; 
+  box-shadow: none;
   background: transparent;
-
 }
 
 footer {
@@ -59,16 +61,15 @@ footer a {
   font-weight: bold;
   color: #ffc107;
   text-decoration: none;
-
 }
 
 footer a:hover {
   text-decoration: none;
   color: #8d6c08;
-  
 }
 
-#mais, #menos { 
+#more,
+#less {
   margin: 0;
   width: 100px;
   font-size: 80px;
@@ -76,12 +77,12 @@ footer a:hover {
   margin-bottom: 30px;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
 }
 
-.cudeboi {
+.inner-spacing {
   text-align: center;
   padding: 20px;
   width: 200px;
